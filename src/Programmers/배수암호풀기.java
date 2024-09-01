@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 대소문자구분 {
+public class 배수암호풀기 {
 	
 	public static void main(String[] args) {
         	String answer = "";

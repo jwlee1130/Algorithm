@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 암호풀기 {
+public class 대문자소문자 {
 	
 	public static void main(String[] args) {
         	String answer = "";
