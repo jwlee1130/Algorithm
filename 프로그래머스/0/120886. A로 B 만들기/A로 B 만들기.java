@@ -3,20 +3,15 @@ class Solution {
         int answer = 1;
         int len = before.length();
         
+        
         for(int i=0; i<len; i++){
-            String a = before.charAt(i)+"";
-            if(after.contains(a)){
-                after = after.replaceFirst(a," ");
-            }else{
-                answer=0;
-                break;
-            }
-            
+                after = after.replaceFirst(before.substring(i,i+1),"");
+     
         }
         
         
         
         
-        return answer;
+        return after.length()==0?1:0;
     }
 }
